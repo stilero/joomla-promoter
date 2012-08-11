@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metadata>
+	<layout title="Projects">
+		<help
+			key = "Projects_DESC"
+		/>
+		<message>
+			<![CDATA[Projects_DESC]]>
+		</message>
+	</layout>
+	<state>
+	<name>Projects Layout</name>
+		<description>Projects Layout_DESC</description>	
+		<url addpath="/administrator/components/com_promoter/elements">
+			<param name="id" type="projects" default="0" label="Select Projects" description="A Projects" />
+		</url>
+		<params>
+		</params>
+	</state>
+	
+	<!-- Fields for Joomla > 1.5. -->
+	<fields name="request">
+		<fieldset name="request"
+			addfieldpath="/administrator/components/com_promoter/models/fields"
+		>
+			<field name="id"
+				type="promoterprojects"
+				description="Projects_SELECT_DESC"
+				label="Select Projects"
+				required="true"
+			/>
+		</fieldset>
+	</fields>	
+	<!-- Add fields to the parameters object for the layout. -->
+	<fields name="params">
+	</fields>
+</metadata>

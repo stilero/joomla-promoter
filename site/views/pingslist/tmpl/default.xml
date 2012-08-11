@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metadata>
+	<layout title="Pingslist">
+		<help
+			key = "PingsLIST_DESC"
+		/>
+		<message>
+			<![CDATA[PingsLIST_DESC]]>
+		</message>
+	</layout>
+	<state>
+	<name>Pings List Layout</name>
+		<description>Pings List Layout_DESC</description>	
+		<params>
+		</params>
+	</state>
+	<!-- Add fields to the parameters object for the layout. -->
+	<fields name="params">
+	</fields>
+</metadata>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metadata>
+	<layout title="Pings">
+		<help
+			key = "Pings_DESC"
+		/>
+		<message>
+			<![CDATA[Pings_DESC]]>
+		</message>
+	</layout>
+	<state>
+	<name>Pings Layout</name>
+		<description>Pings Layout_DESC</description>	
+		<url addpath="/administrator/components/com_promoter/elements">
+			<param name="id" type="pings" default="0" label="Select Pings" description="A Pings" />
+		</url>
+		<params>
+		</params>
+	</state>
+	
+	<!-- Fields for Joomla > 1.5. -->
+	<fields name="request">
+		<fieldset name="request"
+			addfieldpath="/administrator/components/com_promoter/models/fields"
+		>
+			<field name="id"
+				type="promoterpings"
+				description="Pings_SELECT_DESC"
+				label="Select Pings"
+				required="true"
+			/>
+		</fieldset>
+	</fields>	
+	<!-- Add fields to the parameters object for the layout. -->
+	<fields name="params">
+	</fields>
+</metadata>

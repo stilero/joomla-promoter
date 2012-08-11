@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<form>
+	<fields>
+
+		<field
+			name="id"
+			type="hidden"
+			default="0"
+			required="true"
+			readonly="true"/>							
+															
+		<field
+			id="title"
+			name="title"
+			type="text"
+			required="true"
+			label="Title"
+			description="title_Desc"
+			class="inputbox"
+			size="40"/>						
+								
+						
+		<field
+			id="published"
+			name="published"
+			type="list"
+			class="inputbox"
+			default="1"
+			size="1"
+			label="JField_Published_Label"
+			description="JField_Published_Desc">
+			<option
+				value="1">
+				JOption_Published</option>
+			<option
+				value="0">
+				JOption_UnPublished</option>
+			<option
+				value="-1">
+				JOption_Archived</option>
+			<option
+				value="-2">
+				JOption_Trashed</option>
+		</field>
+                          
+		<field
+			id="created"
+			name="created"
+			type="calendar"
+			required="false"
+			label="Creation Time"
+			description="created_Desc"
+			class="inputbox"
+			size="16"
+			format="%Y-%m-%d %H-%M-%S"/>			
+							
+															
+		<field
+			id="url"
+			name="url"
+			type="text"
+			required="false"
+			label="Url"
+			description="url_Desc"
+			class="inputbox"
+			size="40"/>						
+								
+						
+		<field
+			id="last_response"
+			name="last_response"
+			type="calendar"
+			required="false"
+			label="Last_response"
+			description="last_response_Desc"
+			class="inputbox"
+			size="16"
+			format="%Y-%m-%d %H-%M-%S"/>			
+							
+															
+		<field
+			id="working"
+			name="working"
+			type="text"
+			required="false"
+			label="Working"
+			description="working_Desc"
+			class="inputbox"
+			size="40"/>						
+								
+														
+		<field
+			id="extended_ping"
+			name="extended_ping"
+			type="text"
+			required="false"
+			label="Extended_ping"
+			description="extended_ping_Desc"
+			class="inputbox"
+			size="40"/>						
+								
+								
+	</fields>	
+		
+</form>	

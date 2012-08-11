@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<form>
+	<fields>
+
+		<field
+			name="id"
+			type="hidden"
+			default="0"
+			required="true"
+			readonly="true"/>							
+															
+		<field
+			id="response_message"
+			name="response_message"
+			type="text"
+			required="true"
+			label="Response_message"
+			description="response_message_Desc"
+			class="inputbox"
+			size="40"/>						
+								
+						
+		<field
+			id="created"
+			name="created"
+			type="calendar"
+			required="false"
+			label="Creation Time"
+			description="created_Desc"
+			class="inputbox"
+			size="16"
+			format="%Y-%m-%d %H-%M-%S"/>			
+							
+																			
+		<field
+			id="projects_id"
+			name="projects_id"
+			required="true"
+			type="promoterprojects"
+			label="Projects"
+			description="projects_id_Desc"
+			class="inputbox"
+			size="1"/>						
+																		
+		<field
+			id="servers_id"
+			name="servers_id"
+			required="true"
+			type="promoterservers"
+			label="Servers"
+			description="servers_id_Desc"
+			class="inputbox"
+			size="1"/>						
+														
+		<field
+			id="response_code"
+			name="response_code"
+			type="text"
+			required="false"
+			label="Response_code"
+			description="response_code_Desc"
+			class="inputbox"
+			size="40"/>						
+								
+								
+	</fields>	
+		
+</form>	
